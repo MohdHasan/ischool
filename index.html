@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS File  -->
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap.css"> 
+ 
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="css/all.min.css">
+ 
+    
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+      <!-- Student Testimonial Owl Slider CSS -->
+
+            <!-- online -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+     <!-- Custom CSS  -->
+     <link rel="stylesheet" href="css/custom.css">
+ 
+     <!-- Style CSS -->
+     <link rel="stylesheet" href="css/style.css">
+    <title>iSchool</title>
+</head>
+<body>
+
+
+
+
+
+    <!-- Start Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">iSchool</a>
+
+	
+       
+          <span class="navbar-text">Learn and Implement </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav custom-nav">
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" href="#">Course</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" href="#">Payment Status</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" href="#">My Profile</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#stuLoginModalCentter" href="#">Login</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#stuRegModalCentter" href="#">Signup</a>
+              </li>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#CadminLoginModalCentter" href="#">Contact</a>
+              </li>
+            </ul>
+
+
+   </div>
+<form class="d-flex">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-success ms-2" type="submit">Search</button>
+    </form>
+        </div>
+      </nav>
+    <!-- End Navigation Bar -->
+
+    <!-- Start Video Background -->
+    <div class="container-fluid remove-vid-marg">
+      <div class="vid-parent">
+        <video playsinline autoplay muted loop>
+          <source src="video/pexels-mart-production-7251545.mp4">
+        </video>
+        <div class="vid-overlay"></div>
+      </div>
+      <div class="vid-content">
+        <h1 class="my-content">Welcome To iSchool</h1>
+        <small class="my-content">Learn and Implement</small><br>
+        <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#stuRegModalCentter">Get Started</a>
+      </div>
+    </div>
+    <!-- End Video Background -->
+
+    <!-- Start Text Banner -->
+    <div class="container-fluid bg-danger txt-banner">
+      <div class="row bottom-banner">
+        <div class="col-sm">
+          <h5><i class="fas fa-book-open me-3"></i>100+ Online Course</h5>
+        </div>
+        <div class="col-sm">
+          <h5><i class="fas fa-users  me-3"></i>Expert Instructors</h5>
+        </div>
+        <div class="col-sm">
+          <h5><i class="fas fa-keyboard me-3"></i>Lifetime Access</h5>
+        </div>
+        <div class="col-sm">
+          <h5><i class="fas fa-rupee-sign me-3"></i>Money Back <Guarantee></Guarantee></h5>
+        </div>
+      </div>
+    </div>
+    <!-- End Text Banner -->
+
+    <!-- Start Most Popular Course -->
+    <div class="container mt-5">
+      <h1 class="text-center">Popular Course</h1>
+      <!-- Start Most Popular course 1st Card Deck  -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Learn Guitar With Easy Way</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Learn Guitar With Easy Way</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Learn Guitar With Easy Way</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Most Popular Course 1st Card Deck  -->
+
+      <!-- Start Most Popular Course 2nd Card Deck  -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/13.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Python Learn</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/13.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Python Learn</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/13.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Python Learn</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="fw-bolder">&#8377 200
+              </span></p><a class="btn btn-primary text-white fw-bolder float-end" href="#">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <!-- End Most Popular Course 2nd Card Deck  -->
+      <div class="text-center m-3">
+        <a class="btn btn-danger btn-sm" href="#">View All course
+        </a>
+      </div>
+    </div>
+    <!-- End Most Popular Course -->
+
+    <!-- Start Contact Us -->
+      <!-- Start Contact Us -->
+ <div class="container mt-4" id="Contact">
+    <!-- Start Contact US Container  -->
+    <h2 class="text-center mb-4">Contact US</h2>
+    <!-- Contact US Heading -->
+    <div class="row">
+      <!-- Start Contact US Row -->
+      <div class="col-md-8">
+        <form action="" method="post">
+            <input type="text" class="form-control" name="name" placeholder="Name"><br>
+            <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
+            <input type="email" class="form-control" name="email" placeholder="E-mail"><br>
+            <textarea class="form-control" name="message" placeholder="How can we help you?" style="height:150px;"></textarea><br>
+            <input type="submit" class="btn btn-primary" name="submit" value="Send"><br><br>
+        </form>
+      </div>
+      <!-- End Contact Us 1st Column -->
+      <div class="col-md-4 stripe text-white text-center">
+        <!-- Start Contact Us 2nd Column -->
+        <h4>iSchool</h4>
+        <p>iSchool,
+          Near Azad Nagar MDA,
+          Colony Moradabad
+          Moradabad - 244001<br>
+          Uttar-Pradesh (U.P)<br>
+          Phone: +0000000000<br>
+        www.ischool.com </p>
+      </div> <!-- End Contact us 2nd Column   -->
+    </div>  <!-- End Contact us Row   -->
+   </div>        <!-- End Contact US Container  -->
+  <!-- End Contact Us -->
+
+
+    <!-- End Contact Us -->
+
+
+
+
+    <!-- Start Student testimonial -->
+    <div class="container-fluid mt-5" style="background-color:#4B7289" id="Feedback">
+      <h1 class="text-center p-4"> Student's Feedback</h1>
+      <!-- <div class="demo"> -->
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <span class="icon fa fa-quote-left"></span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                            </p>
+                            <div class="testimonial-content">
+                                <div class="pic"><img src="img/A.jpg" alt=""></div>
+                                <h3 class="title">williamson</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <span class="icon fa fa-quote-left"></span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                            </p>
+                            <div class="testimonial-content">
+                                <div class="pic"><img src="img/D.jpg" alt=""></div>
+                                <h3 class="title">williamson</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <span class="icon fa fa-quote-left"></span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                            </p>
+                            <div class="testimonial-content">
+                                <div class="pic"><img src="img/E.jpg" alt=""></div>
+                                <h3 class="title">williamson</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <span class="icon fa fa-quote-left"></span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                            </p>
+                            <div class="testimonial-content">
+                                <div class="pic"><img src="img/B.jpg" alt="error"></div>
+                                <h3 class="title">Kristina</h3>
+                                <span class="post">Web Designer</span>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <span class="icon fa fa-quote-left"></span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                            </p>
+                            <div class="testimonial-content">
+                                <div class="pic"><img src="img/C.jpg" alt=""></div>
+                                <h3 class="title">Steve Thomas</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+<!-- End Student testimonial -->
+
+
+
+
+
+
+    <div class="container-fluid bg-danger mt-5"> <!-- Start Social Follow -->
+      <div class="row text-white text-center p-1">
+        <div class="col-sm">
+          <a class="text-white text-decoration-none social-hover" href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        </div>
+        <div class="col-sm">
+          <a class="text-white text-decoration-none social-hover" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <div class="col-sm">
+          <a class="text-white text-decoration-none social-hover" href="#"><i class="fab fa-whatsapp-square"></i> WhatsApp</a>
+        </div>
+        <div class="col-sm">
+          <a class="text-white text-decoration-none social-hover" href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+        </div>
+      </div>
+    </div>  <!-- End Social Follow -->
+
+
+
+
+
+
+ <!-- Start About Section -->
+ <div class="container-fluid p-4" style="background-color:#E9EcEF">
+  <div class="container" style="background-color: #E9ECEF">
+    <div class="row text-center">
+      <div class="col-sm">
+        <h5>About Us</h5>
+        <p>iSchool provides universal access to the world's best
+          education, partnering with top universities and
+          organizations to offer courses online.</p>
+        </div>
+        <div class="col-sm">
+          <h5>Category</h5>
+          <a class="text-dark text-decoration-none" href="#">Web Development</a><br />
+          <a class="text-dark text-decoration-none" href="#">Web Designing</a><br />
+          <a class="text-dark text-decoration-none" href="#">Android App Dev</a><br />
+          <a class="text-dark text-decoration-none" href="#">iOS Development</a><br />
+          <a class="text-dark text-decoration-none" href="#">Data Analysis</a><br /><br>
+        </div>
+        <div class="col-sm">
+          <h5>Contact Us</h5>
+          <p>iSchool Pvt Ltd <br> Near Police Camp II <br> Bokaro,
+            Uttar-Pradesh <br> Ph. 00000000 </p>
+          </div>
+        </div>
+      </div>
+    </div>   <!-- E nd About Section -->
+   
+
+
+
+ <!-- Start Footer -->
+ <footer class="container-fluid bg-dark text-center p-2">
+   <small class="text-white">Copyright &copy; 2021 || Designed By E-Learning || <a data-bs-toggle="modal" data-bs-target="#adminLoginModalCentter" href="#Login">Admin Login</a></small>
+  </footer> <!--  End Footer -->
+
+      <!-- Start Student Registration Modal -->
+  
+<!-- Modal -->
+<div class="modal fade" id="stuRegModalCentter" tabindex="-1" aria-labelledby="stuRegModalCentterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stuRegModalCentterLabel">Student Registration</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Start Student Registration FOrm -->
+        <form>
+          <div class="form-group">
+            <i class="fas fa-user"></i><label for="stuname"
+            class="ps-2 fw-bold">Name</label><input
+            type="text"
+            class="form-control" placeholder="Name" name="stuname" id="stuname">
+          </div>
+          <div class="form-group">
+            <i class="fas fa-envelope"></i><label for="stuemail"
+            class="ps-2 fw-bold">Email</label><input
+            type="email"
+            class="form-control" placeholder="Email" name="stuemail" id="stuemail">
+            <small class="form-text">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+          <i class="fas fa-key"></i>
+            <label for="stupass" class="ps-2 fw-bold">New Password</label>
+            <input type="password" class="form-control" name="stupass" placeholder="Password" id="stupass">
+          </div>
+        </form>
+        <!-- End Student Registration FOrm -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Sign Up</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- End Student Registration Modal -->
+
+       <!-- Start Student Login Modal -->
+  
+<!-- Modal -->
+<div class="modal fade" id="stuLoginModalCentter" tabindex="-1" aria-labelledby="stuLoginModalCentterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stuLoginModalCentterLabel">Student Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Start Student Login FOrm -->
+        <form id="stuLoginForm">
+          <div class="form-group">
+            <i class="fas fa-envelope"></i><label for="stuLogemail"
+            class="ps-2 fw-bold">Email</label><input
+            type="email"
+            class="form-control" placeholder="Email" name="stuLogemail" id="stuLogemail">
+          </div>
+          <div class="form-group">
+          <i class="fas fa-key"></i>
+            <label for="stuLogpass" class="ps-2 fw-bold">Password</label>
+            <input type="password" class="form-control" name="stuLogpass" placeholder="Password" id="stuLogpass">
+          </div>
+        </form>
+        <!-- End Student Login FOrm -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="stuLoginBtn">Login</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- End Student Login Modal -->
+
+       <!-- Start Admin Login Modal -->
+  
+<!-- Modal -->
+<div class="modal fade" id="adminLoginModalCentter" tabindex="-1" aria-labelledby="adminLoginModalCentterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="adminLoginModalCentterLabel">Admin Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Start Admin Login FOrm -->
+        <form id="adminLoginForm">
+          <div class="form-group">
+            <i class="fas fa-envelope"></i><label for="adminLogemail"
+            class="ps-2 fw-bold">Email</label><input
+            type="email"
+            class="form-control" placeholder="Email" name="adminLogemail" id="adminLogemail">
+          </div>
+          <div class="form-group">
+          <i class="fas fa-key"></i>
+            <label for="adminLogpass" class="ps-2 fw-bold">Password</label>
+            <input type="password" class="form-control" name="adminLogpass" placeholder="Password" id="adminLogpass">
+          </div>
+        </form>
+        <!-- End Admin Login FOrm -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="adminLoginBtn">Login</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- End Admin Login Modal -->
+
+    <!-- JQuery Propper Bootstrap -->
+    <script src="js/jquery.js"></script>
+    <script src="js/proper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="js/all.min.js"></script>
+
+    <!-- online -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script>
+  $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+      items:3,
+      itemsDesktop:[1000,3],
+      itemsDesktopSmall:[979,2],
+      itemsTablet:[768,2],
+      itemsMobile:[650,1],
+      pagination:true,
+      autoPlay:true
+    });
+  });
+  </script>
+</body>
+</html>
